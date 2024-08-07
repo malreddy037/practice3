@@ -1,0 +1,7 @@
+#! /bin/bash
+if [ -r /etc/passwd ]
+then 
+echo this file has write permission available
+else
+echo this file has not write permission available
+fi
